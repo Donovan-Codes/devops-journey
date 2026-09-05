@@ -1,0 +1,35 @@
+# ── Credentials — never commit these ──────────────────────────────
+# Practice keeping secrets out of git from day one. This habit matters
+# more than almost anything else in this repo.
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+*.env
+.env*
+secrets/
+credentials
+bandit-passwords.txt
+**/passwords.txt
+
+# ── Terraform (Phase 6) ───────────────────────────────────────────
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+!example.tfvars
+
+# ── Editors / OS ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Misc ──────────────────────────────────────────────────────────
+*.log
+__pycache__/
+venv/
+.venv/
+node_modules/
