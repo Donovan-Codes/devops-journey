@@ -11,6 +11,8 @@ secrets/
 credentials
 bandit-passwords.txt
 **/passwords.txt
+devbox
+devbox.pub
 
 # ── Terraform (Phase 6) ───────────────────────────────────────────
 *.tfstate

@@ -6,8 +6,8 @@ Environment: Ubuntu Server LTS in a local VM, no GUI.
 
 | # | Lab | Status |
 |---|---|---|
-| 1 | Key-based SSH + disable password auth | ⚪ |
-| 2 | Users, groups, shared directory permissions | ⚪ |
+| 1 | Key-based SSH + disable password auth | 🟢 |
+| 2 | Users, groups, shared directory permissions | 🟡 |
 | 3 | Write a systemd service | ⚪ |
 | 4 | Serve nginx on a custom port through a firewall | ⚪ |
 | 5 | Log analysis with grep/awk/sort/uniq | ⚪ |

@@ -121,11 +121,11 @@ Check the permissions on that file when you're done — see the next section.
 
 ## Verification checklist
 
-- [ ] `ssh devbox` logs you in with no account password
-- [ ] Forcing password auth is refused by the server
-- [ ] Root cannot log in over SSH
-- [ ] You can explain which of your two key files is safe to share and why
-- [ ] You can state the correct permissions for `~/.ssh` and `authorized_keys`
+- [X] `ssh devbox` logs you in with no account password
+- [X] Forcing password auth is refused by the server
+- [X] Root cannot log in over SSH
+- [X] You can explain which of your two key files is safe to share and why
+- [X] You can state the correct permissions for `~/.ssh` and `authorized_keys`
 
 ---
 
