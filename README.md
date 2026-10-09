@@ -1,62 +1,72 @@
 # DevOps Journey
 
-A public record of me learning DevOps engineering from scratch — the labs I build,
-the scripts I write, and an honest weekly log of what broke and how I fixed it.
+My notebook for learning DevOps. The code lives in one repo per project; this repo holds
+the notes — what I built, what broke, how I fixed it, and what I'd do differently.
 
-**Started:** September 2026
-
----
-
-## Why this repo exists
-
-Two reasons. First, writing things down forces me to actually understand them rather
-than copy-paste my way to a green checkmark. Second, this is the paper trail: when
-someone asks "tell me about a time you debugged something hard," the answer is in
-here with a date on it.
+Working through the [roadmap.sh DevOps projects](https://roadmap.sh/devops/projects).
 
 ---
 
-## Structure
-
-| Folder | What's in it |
-|---|---|
-| `logs/` | Weekly entries — what I built, what broke, what I fixed, what's still fuzzy |
-| `labs/` | Hands-on exercises, organized by phase |
-| `scripts/` | Bash scripts and automation I've written |
-| `reference/` | My own cheatsheets, built as I go |
-
----
-
-## Roadmap Progress
-
-| Phase | Topic | Status |
-|---|---|---|
-| 1 | Linux fundamentals | 🟡 In progress |
-| 2 | Bash scripting | ⚪ Not started |
-| 3 | Git | ⚪ Not started |
-| 4 | Docker + the app | ⚪ Not started |
-| 5 | CI/CD (GitHub Actions) | ⚪ Not started |
-| 6 | AWS + Terraform | ⚪ Not started |
-| 7 | Ansible | ⚪ Not started |
-| 8 | Kubernetes | ⚪ Not started |
-| 9 | Observability | ⚪ Not started |
-| 10 | Security | ⚪ Not started |
+## Projects
 
 Legend: ⚪ not started · 🟡 in progress · 🟢 complete
 
+### Beginner
+
+| Project | Code | Notes | Status |
+|---|---|---|---|
+| [Server Performance Stats](https://roadmap.sh/projects/server-stats) | [repo](https://github.com/Donovan-Codes/server-stats) | [notes](notes/server-stats.md) | 🟡 |
+| [Log Archive Tool](https://roadmap.sh/projects/log-archive-tool) | — | — | ⚪ |
+| [Nginx Log Analyser](https://roadmap.sh/projects/nginx-log-analyser) | — | — | ⚪ |
+| [SSH Remote Server Setup](https://roadmap.sh/projects/ssh-remote-server-setup) | — | — | ⚪ |
+| [Dummy Systemd Service](https://roadmap.sh/projects/dummy-systemd-service) | — | — | ⚪ |
+| [Static Site Server](https://roadmap.sh/projects/static-site-server) | — | — | ⚪ |
+| [Basic DNS Setup](https://roadmap.sh/projects/basic-dns) | — | — | ⚪ |
+| [Simple Monitoring](https://roadmap.sh/projects/simple-monitoring-dashboard) | — | — | ⚪ |
+| [GitHub Pages Deployment](https://roadmap.sh/projects/github-actions-deployment-workflow) | — | — | ⚪ |
+| [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile) | — | — | ⚪ |
+| [EC2 Instance](https://roadmap.sh/projects/ec2-instance) | — | — | ⚪ |
+
+### Intermediate
+
+| Project | Code | Notes | Status |
+|---|---|---|---|
+| [Linux Server Setup](https://roadmap.sh/projects/linux-server-setup) | — | — | ⚪ |
+| [File Integrity Checker](https://roadmap.sh/projects/file-integrity-checker) | — | — | ⚪ |
+| [Automated DB Backups](https://roadmap.sh/projects/automated-backups) | — | — | ⚪ |
+| [Configuration Management](https://roadmap.sh/projects/configuration-management) | — | — | ⚪ |
+| [IaC on DigitalOcean](https://roadmap.sh/projects/iac-digitalocean) | — | — | ⚪ |
+| [Node.js Service Deployment](https://roadmap.sh/projects/nodejs-service-deployment) | — | — | ⚪ |
+| [Dockerized Service](https://roadmap.sh/projects/dockerized-service-deployment) | — | — | ⚪ |
+| [Multi-Container Application](https://roadmap.sh/projects/multi-container-service) | — | — | ⚪ |
+| [Bastion Host](https://roadmap.sh/projects/bastion-host) | — | — | ⚪ |
+| [VPN Server Setup](https://roadmap.sh/projects/vpn-server-setup) | — | — | ⚪ |
+| [Pomodoro Timer](https://roadmap.sh/projects/pomodoro-timer) | — | — | ⚪ |
+
+### Advanced
+
+| Project | Code | Notes | Status |
+|---|---|---|---|
+| [Prometheus and Grafana](https://roadmap.sh/projects/monitoring) | — | — | ⚪ |
+| [Multi-Service Application](https://roadmap.sh/projects/multiservice-docker) | — | — | ⚪ |
+| [Blue-Green Deployment](https://roadmap.sh/projects/blue-green-deployment) | — | — | ⚪ |
+| [Service Discovery](https://roadmap.sh/projects/service-discovery) | — | — | ⚪ |
+
 ---
 
-## The main project
+## Other notes
 
-Starting in Phase 4, everything converges on one application that gets progressively
-containerized, automated, deployed, and monitored. That lives in its own repo:
-
-**→ [link to project repo — add this once it exists]**
+| Note | What it covers |
+|---|---|
+| [Lab environment](notes/lab-environment.md) | VM setup, SSH key auth, the sshd_config Include override |
+| [Linux cheatsheet](reference/linux-cheatsheet.md) | Commands I've actually used and understood |
 
 ---
 
-## Log index
+## Environment
 
-| Week | Dates | Focus |
-|---|---|---|
-| [01](logs/2026-week-01.md) | Sep 2 – Sep 8 | VM setup, SSH, Bandit 0–8 |
+| | |
+|---|---|
+| Host | MacBook Pro (Apple Silicon) |
+| VM | Ubuntu Server LTS in UTM |
+| Access | SSH, key-only, password login disabled |

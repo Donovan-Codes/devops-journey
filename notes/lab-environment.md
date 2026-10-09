@@ -79,6 +79,9 @@
 - In order to search a config file with vim, use '/' to search forward or '?' to search backwards. The 'n' key can be used to look for any more matches ahead and 'N' can be used to search for any matches behind. Needed this for the lab01 SSH keys so that I could find PasswordAuthentication and PermitRootLogin values.
 - When using vim, use 'i' to enter INSERT mode to make your edits and ':wq' to write and quit.
 
+- On Mac OS do a "stat -f '%A %N' ~/.ssh ~/.ssh/*" to pull the file permissions on ssh keys and files.
+- sshd -T helped reveal that my Include file at the top of my sshd config file was preventing me from turning off PasswordAuthentication.
+
 
 ## Still fuzzy
 
